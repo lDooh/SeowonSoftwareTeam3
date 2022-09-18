@@ -1,5 +1,7 @@
 public class DiceMain {
     public static void main(String[] args) {
-        // TODO: create main class
+        DiceGame dicegame = new DiceGame(new Player("Lee"), new Player("Kim"));
+
+        dicegame.play();
     }
 }
