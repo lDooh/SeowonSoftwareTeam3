@@ -7,7 +7,6 @@ import ui.ClientUI;
 
 import java.io.*;
 import java.net.Socket;
-import java.util.Scanner;
 
 public class ClientThread extends Thread {
     private EchoClientState state;
